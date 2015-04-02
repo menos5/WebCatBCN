@@ -13,13 +13,38 @@
     <web-presentation-keyboardcontrols></web-presentation-keyboardcontrols>
     <!--! Portada !-->
     <web-slide-title class="black">
-      <h1><i class="fa fa-home fa-fw"></i> Web Components</h1>
-      <h2>Construyendo nuestro HTML5</h2>
+      <h1 class="center">Web Components<br>
+        <big><i class="fa fa-html5 naranja"></i></big></h1>
+      <h2 class="center">Construyendo nuestro HTML5</h2>
+      <!-- Iconos de areas
+      
+      <h2 class="center naranja">
+        <i class="fa fa-code"></i>
+        <i class="fa fa-cog"></i>
+        <i class="fa fa-user-secret"></i>
+        <i class="fa fa-file-code-o"></i>
+      </h2>-->
     </web-slide-title>
     
     <!--! TOC !-->
     <web-slide>
       
+    </web-slide>
+    
+    <!--! Ejemplos !-->
+    <web-slide>
+      <h2>Ejemplos</h2>
+    </web-slide>
+    
+    <!--! Como crear !-->
+    <web-slide>
+      <h2>¿Como creo mi propio Web Element?</h2>
+      <pre>var miElemento = document.registerElement('mi-elemento');</pre>
+      <pre>&lt;mi-elemento&gt;&lt;/mi-elemento&gt;</pre>
+      
+      <h3>Naming rules</h3>
+      <p>You need to have at least one '-' inside the name of a custom element. Any tag names without '-' will result in an error.</p>
+      <p><a href="http://webcomponents.org/articles/introduction-to-custom-elements/">Más info</a></p>
     </web-slide>
     
     
