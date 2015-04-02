@@ -37,25 +37,27 @@ web-slide +.forward-in, web-slide-title +.forward-in {
 @keyframes moveFromRight {
   from { -webkit-transform: translateX(100%); transform: translateX(100%); }
 }
-
+web-slide, web-slide-title {
+  background: url(img/marca.png) right bottom no-repeat;
+}
 /* Colors */
 web-slide {
-  background:#ecf0f1;
+  background-color:#ecf0f1;
   color:#2c3e50;
   border-top: 25px solid #f1c40f;
 }
 web-slide.black {
-  background:#2c3e50;
+  background-color:#2c3e50;
   color:#ecf0f1;
   border-top: 25px solid #f1c40f;
 }
 web-slide.yellow {
-  background:#f1c40f;
+  background-color:#f1c40f;
   color:#2c3e50;
   border-top: 25px solid #2c3e50;
 }
 web-slide-title {
-  background:#2c3e50;
+  background-color:#2c3e50;
   color:#f1c40f;
   border-top: 25px solid #f1c40f;
 }
