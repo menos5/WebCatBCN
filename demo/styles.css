@@ -1,0 +1,39 @@
+web-slide-title {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+web-slide-title h2 {
+  margin: 0;
+}
+
+web-slide-title::shadow div#content,
+web-slide::shadow div#content {
+  justify-content: initial;
+  align-items: initial;
+  text-align: initial;
+  padding: 20px;
+}
+
+/* Animation Example */
+web-slide-title.forward-out {
+  -webkit-animation: moveToLeft .7s ease-in-out both;
+  animation: moveToLeft .7s ease-in-out both;
+}
+web-slide-title +.forward-in {
+  -webkit-animation: moveFromRight .7s ease both;
+  animation: moveFromRight .7s ease both;
+}
+@-webkit-keyframes moveToLeft {
+  from { }
+  to { -webkit-transform: translateX(-100%); }
+}
+@keyframes moveToLeft {
+  from { }
+  to { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+}
+@-webkit-keyframes moveFromRight {
+  from { -webkit-transform: translateX(100%); }
+}
+@keyframes moveFromRight {
+  from { -webkit-transform: translateX(100%); transform: translateX(100%); }
+}
