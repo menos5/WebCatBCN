@@ -15,11 +15,11 @@ web-slide::shadow div#content {
 }
 
 /* Animation Example */
-web-slide-title.forward-out {
+web-slide.forward-out, web-slide-title.forward-out {
   -webkit-animation: moveToLeft .7s ease-in-out both;
   animation: moveToLeft .7s ease-in-out both;
 }
-web-slide-title +.forward-in {
+web-slide +.forward-in, web-slide-title +.forward-in {
   -webkit-animation: moveFromRight .7s ease both;
   animation: moveFromRight .7s ease both;
 }
@@ -36,4 +36,26 @@ web-slide-title +.forward-in {
 }
 @keyframes moveFromRight {
   from { -webkit-transform: translateX(100%); transform: translateX(100%); }
+}
+
+/* Colors */
+web-slide {
+  background:#ecf0f1;
+  color:#2c3e50;
+  border-top: 25px solid #f1c40f;
+}
+web-slide.black {
+  background:#2c3e50;
+  color:#ecf0f1;
+  border-top: 25px solid #f1c40f;
+}
+web-slide.yellow {
+  background:#f1c40f;
+  color:#2c3e50;
+  border-top: 25px solid #2c3e50;
+}
+web-slide-title {
+  background:#2c3e50;
+  color:#f1c40f;
+  border-top: 25px solid #f1c40f;
 }
