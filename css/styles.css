@@ -84,6 +84,7 @@ web-slide-title {
 .gracias h2 {
   font-size: 400%;
   text-align:center;
+  font-family: consolas, monospace;
 }
 .gracias .social {
   margin: 0.2em;

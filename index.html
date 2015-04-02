@@ -27,7 +27,7 @@
     </web-slide-title>
     
     <!--! Descripcion !-->
-    <web-slide>
+    <web-slide class="black">
       <h2>Descripción</h2>
       <p>Web Components permiten a los desarrolladores crear sus propias 
       etiquetas HTML personalizadas, dejarles usar esas etiquetas en sus sitios 
@@ -35,12 +35,37 @@
     </web-slide>
     
     <!--! Ejemplos !-->
-    <web-slide>
+    <web-slide class="black">
       <h2>Ejemplos</h2>
+      <pre>
+        
+  &lt;video width="320" height="240" controls&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+    &lt;source src="movie.ogg" type="video/ogg"&gt;
+    Tu navegador no soporta la etiqueta video
+  &lt;/video&gt;
+      </pre>
+    </web-slide>
+    
+    <!--! Definiciones !-->
+    <web-slide class="yellow">
+      <h2>Custom Elements</h2>
+    </web-slide>
+    
+    <web-slide class="yellow">
+      <h2>HTML Imports</h2>
+    </web-slide>
+    
+    <web-slide class="yellow">
+      <h2>Templates</h2>
+    </web-slide>
+    
+    <web-slide class="yellow">
+      <h2>Shadow DOM</h2>
     </web-slide>
     
     <!--! Como crear !-->
-    <web-slide>
+    <web-slide class="black">
       <h2>¿Como creo mi propio Web Element?</h2>
       <pre>var miElemento = document.registerElement('mi-elemento');</pre>
       <pre>&lt;mi-elemento&gt;&lt;/mi-elemento&gt;</pre>
@@ -54,22 +79,22 @@
         Más info</a></p>
     </web-slide>
     
-    <web-slide>
+    <web-slide class="black">
       <h3>¿Como creo mi propio Web Element?</h3>
       <h2>HTML</h2>
     </web-slide>
     
-    <web-slide>
+    <web-slide class="black">
       <h3>¿Como creo mi propio Web Element?</h3>
       <h2>JS</h2>
     </web-slide>
     
-    <web-slide>
+    <web-slide class="black">
       <h3>¿Como creo mi propio Web Element?</h3>
       <h2>CSS</h2>
     </web-slide>
     
-    <web-slide>
+    <web-slide class="black">
       <h3>¿Como creo mi propio Web Element?</h3>
       <h2>Todo junto</h2>
     </web-slide>
@@ -77,10 +102,10 @@
     
     <!--! Gracias!! !-->
     <web-slide class="yellow gracias">
-      <h2><big>&lt;gracias&gt;</big></h2>
-      <h3 class="social web">tomascornelles.com</h3>
-      <h3 class="social twitter">@tomascornelles</h3>
-      <h3 class="social linkedin">/tomascornelles</h3>
+      <h2>&lt;gracias&gt;</h2>
+      <h3 class="social"><i class="fa fa-pencil-square"></i> tomascornelles.com</h3>
+      <h3 class="social"><i class="fa fa-twitter-square"></i> @tomascornelles</h3>
+      <h3 class="social"><i class="fa fa-linkedin-square"></i> /tomascornelles</h3>
     </web-slide>
 </body>
 </html>
